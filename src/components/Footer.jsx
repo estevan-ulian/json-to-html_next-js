@@ -5,7 +5,7 @@ export default function Footer(props) {
     const {href, desc} = props;
 
     return (
-        <footer className="bg-gray-500 p-2">
+        <footer className="bg-gradient-to-r from-blue-400 via-blue-500 to-blue-400 p-2">
             <Link 
             href={props.href}
             target='blank'

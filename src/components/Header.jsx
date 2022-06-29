@@ -1,10 +1,11 @@
 const Header = (props) => {
     return (
         <>
-          <header className="w-full p-2 bg-blue-500 text-center">
-          <h1 className="text-white text-2xl">{props.title}</h1>
-          <p className="text-blue-300">{props.desc}</p>
-      </header>
+            <header 
+            className="w-full py-5 text-center bg-gradient-to-r from-blue-400 via-blue-500 to-blue-400">
+                <h1 className="text-white text-2xl font-bold">{props.title}</h1>
+                <p className="text-blue-300">{props.desc}</p>
+            </header>
         </>
     )
 }

@@ -14,15 +14,3 @@ export function renderJsonCountries(data) {
     })
     return dataMaped
 }
-
-export function renderLocalJson(data) {
-    console.log(data)
-    const dataMaped = data.map((value, index) => {
-        return (
-        <li key={index} className='flex p-2'>
-            <span className="">{value.name}({value.code}) | {value.code}</span>
-        </li>
-        )
-    })
-    return dataMaped
-}
