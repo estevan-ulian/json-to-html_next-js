@@ -14,7 +14,10 @@ export default function Home() {
   return (
     <div className="h-screen flex flex-col">
       <Head>
-        <meta name="title" content="JSON to HTML " />
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="author" content="Estevan Ulian"/>
+      <title>JSON to TXT</title>
       </Head>
 
       <Header title='JSON to TXT' 
