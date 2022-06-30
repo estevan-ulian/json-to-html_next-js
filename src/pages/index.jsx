@@ -10,7 +10,6 @@ import Head from "next/head"
 import Nationalities from "../components/Nationalities"
 
 export default function Home() {  
-
   return (
     <div className="h-screen flex flex-col">
       <Head>
