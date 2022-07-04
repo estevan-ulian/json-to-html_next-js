@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
 
       <Header title='JSON to TXT' 
-        desc='Insert values into select, input and select fields in Gravity Forms to autopopulate a list of choices.' 
+        desc='' 
       />
 
       <Container>        
