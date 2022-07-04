@@ -18,7 +18,7 @@ const DDD = () => {
 
         return obj.map((v, i) => {
             return (
-                <li key={i}>{v} | {v}</li>
+                <li key={i}>({v}) | {v}</li>
                 )
             }
         )
