@@ -4,9 +4,7 @@ interface UlProps {
 
 const Ul = (props: UlProps) => {
   return (
-    <ul className="
-    h-96 overflow-y-scroll p-2 bg-gradient-to-b from-gray-100 to-gray-300"
-    >
+    <ul className="px-4 h-96 overflow-y-scroll p-2 bg-gradient-to-b from-gray-100 to-gray-300">
       {props.children}
     </ul>
   )

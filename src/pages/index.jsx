@@ -6,6 +6,7 @@ import TitleSection from "../components/TitleSection"
 import Currency from "../components/Currency"
 import Wrapper from "../components/Wrapper"
 import DDI from "../components/DDI"
+import DDD from "../components/DDD"
 import Head from "next/head"
 import Nationalities from "../components/Nationalities"
 
@@ -13,8 +14,6 @@ export default function Home() {
   return (
     <div className="h-screen flex flex-col">
       <Head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="author" content="Estevan Ulian"/>
       <title>JSON to TXT</title>
       </Head>
@@ -42,6 +41,11 @@ export default function Home() {
         <Wrapper>
           <TitleSection title='Currency' name='name (symbol)' code='code' />
             <Currency />
+        </Wrapper>       
+
+        <Wrapper>
+          <TitleSection title='Brazil DDD' name='ddd' code='ddd' />
+            <DDD />
         </Wrapper>       
 
       </Container>
